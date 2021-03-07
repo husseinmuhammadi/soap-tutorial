@@ -1,6 +1,6 @@
-package com.javastudio.tutorial.ws.service;
+package com.javastudio.ws.service;
 
-import com.javastudio.tutorial.ws.api.Conversion;
+import com.javastudio.ws.api.Conversion;
 
 import javax.jws.WebService;
 
@@ -10,7 +10,7 @@ import javax.jws.WebService;
  * The endpointInterface element connects this SIB to its SEI, and is necessary to avoid undefined
  * port type errors when running the client application presented later.
  */
-@WebService(endpointInterface = "com.javastudio.tutorial.ws.api.Conversion")
+@WebService(endpointInterface = "com.javastudio.ws.api.Conversion")
 public class ConversionImpl implements Conversion {
     @Override
     public double c2f(double degrees) {

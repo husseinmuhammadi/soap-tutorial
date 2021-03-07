@@ -1,4 +1,4 @@
-package com.javastudio.tutorial.ws.api;
+package com.javastudio.ws.api;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;
