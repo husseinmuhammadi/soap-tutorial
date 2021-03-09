@@ -26,6 +26,9 @@ From the command prompt:
 wsimport -s . -p com.baeldung.jaxws.server.topdown employeeservicetopdown.wsdl
 ```
 
+Command line options used: -p specifies the target package. -s specifies where to put the generated source files.
+
+
 
 [Introduction to JAX-WS](https://www.baeldung.com/jax-ws)
 
