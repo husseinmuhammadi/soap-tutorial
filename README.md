@@ -39,4 +39,6 @@ Command line options used: -p specifies the target package. -s specifies where t
 
 
 ## 2. Create Soap Client
-
+```
+wsimport.exe -keep -verbose "http://test-dmz.ew.com.tr:8080/out.ws/service_SuperPay.asmx?wsdl"
+```
